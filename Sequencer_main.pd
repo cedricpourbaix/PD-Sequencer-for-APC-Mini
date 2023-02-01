@@ -1,4 +1,4 @@
-#N canvas 194 23 1168 775 12;
+#N canvas 533 288 1168 775 12;
 #X obj 342 68 loadbang;
 #X msg 342 112 375;
 #X floatatom 342 156 5 0 0 0 - - - 0;
@@ -115,7 +115,7 @@
 #X obj 342 92;
 #X obj 258 186 sel 0;
 #X obj 1153 487 tabread trackData;
-#N canvas 450 155 1031 566 loadTracks 0;
+#N canvas 450 155 1031 566 loadTracks 1;
 #X obj 841 417 tabread trackData;
 #X obj 808 476 noteout;
 #X obj 784 393 pipe 1;
@@ -132,7 +132,7 @@
 #X obj 179 326 noteout;
 #X obj 784 333 counter;
 #X msg 917 302 64;
-#X obj 179 225 counter;
+#X obj 180 229 counter;
 #X obj 179 276 + 82;
 #X msg 265 292 1;
 #X msg 230 279 0;
@@ -150,6 +150,8 @@
 #X msg 661 309 87;
 #X msg 694 309 89;
 #X obj 144 426 s;
+#X text 142 115 TESTER UN BANG AVEC LA NOTE;
+#X obj 354 142 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X connect 0 0 1 1;
 #X connect 2 0 1 0;
 #X connect 3 0 1 2;
